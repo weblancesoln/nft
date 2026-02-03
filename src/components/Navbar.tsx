@@ -61,6 +61,9 @@ export function Navbar() {
                     <Link href="/dashboard" className={`font-medium hover:text-[hsl(var(--primary))] transition-colors ${isActive('/dashboard')}`}>
                         Dashboard
                     </Link>
+                    <Link href="/crm" className={`font-medium hover:text-[hsl(var(--primary))] transition-colors ${isActive('/crm')}`}>
+                        CRM
+                    </Link>
                     <Link href="/admin" className={`font-medium hover:text-[hsl(var(--primary))] transition-colors ${isActive('/admin')}`}>
                         Admin
                     </Link>
